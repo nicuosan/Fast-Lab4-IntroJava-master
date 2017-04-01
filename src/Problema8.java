@@ -22,7 +22,7 @@ suma = 1 + 4 +(4*4)+(4*4*4) +(4*4*4*4) +(4*4*4*4*4)
         for (int i = 0; i <= n; i++) {
             sum += puterea(x, i);
         }
-        System.out.println("Rezultat fin " + sum);
+        System.out.println("Rezultat final " + sum);
     }
 
     public static int puterea(int x, int n) {
